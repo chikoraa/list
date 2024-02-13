@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-S2QRRR7N84"></script>
-      <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S2QRRR7N84"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      gtag('config', 'G-S2QRRR7N84');
-      </script>
-    
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>20240209 早瀬ユウカ</title>
+    gtag('config', 'G-S2QRRR7N84');
+    </script>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20240209 早瀬ユウカ</title>
   </head>
   <body>
+    <script>
+      var xhr = new XMLHttpRequest();
+    
+      var title = document.title;
+      var url = window.location.href;
+    
+      var formData = new FormData();
+      formData.append('title', title);
+      formData.append('url', url);
+      formData.append('form', document.referrer);
+    
+      xhr.open('POST', 'https://chikora.000webhostapp.com/log.php', true);
+      xhr.send(formData);
+    </script>
     
     私の絵を見てくれてありがとう！<br>
     -----<br>
