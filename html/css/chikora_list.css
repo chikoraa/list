@@ -1,0 +1,68 @@
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: -1;
+}
+.go_button {
+    width: 100px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.s_site_name {
+  background-color: #a0a0a0;
+  transition: background-color 0.5s ease-in-out;
+  color: #000000;
+  display: grid;
+  font-size: 20px;
+}
+
+.s_site_name:hover {
+  background-color: #ff8c00;
+  color: #ffffff;
+}
+
+
+.s_site_ko {
+  background-color: #c0c0c0;
+  transition: background-color 0.5s ease-in-out;
+  color: #000000;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  white-space: nowrap;
+}
+
+.s_site_ko:hover  {
+  background-color: #df8c00;
+  color: #ffffff;
+  font-size: 25px;
+  text-overflow: clip;
+}
+
+.my_page_ko {
+  background-color: #c0c0c0;
+  transition: background-color 0.5s ease-in-out;
+  color: #000000;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  white-space: nowrap;
+}
+
+.my_page_ko:hover {
+  background-color: #ff8c00;
+  color: #ffffff;
+  font-size: 25px
+}
+
+
+
+.a_url{
+  text-decoration: none;
+}
