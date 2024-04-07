@@ -60,8 +60,8 @@ var kanji_word = {
     "all_post":"全部ファイル","main_post":"主要差分","anzen_post":"全年齢差分","free_post":"無料差分",
     "zip":"ZIPファイル","mp4":"MP4ファイル","psd":"PSDファイル",
     "sabun_str":"高解像度差分","sabun_mai":"枚",
-    "discord_str":"Discordレベルチャンネルの閲覧権限を解除するには、Patreonにバインドし、Patreonで購読してください。",
-    "my_page_str":"他のウェブサイトでも私をフォローしていただければ嬉しいです:",
+    "discord_str":"Discordでファイルチャンネル (FILE) の閲覧権限のロックを解除するには、DiscordとPatreon連携して対応するプランに購読してください。",
+    "my_page_str":"他のサイトでフォローする:",
   },*/
 };
 
