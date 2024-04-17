@@ -9,12 +9,18 @@ function use_go(go){
         var main_div = document.getElementById("s_site_div");
         main_div.innerHTML = s_site_code;
       }
+
     if (title.hasOwnProperty(go)){
-      document.title = title[go];
+      document.getElementById("title_div").innerHTML = title[go];
+      //document.title = title[go];
     }
     else {
-      document.title = title["jp"];
+      document.getElementById("title_div").innerHTML = title["ja"];
+      //document.title = title["ja"];
     }
+
+    var htmlElement = document.documentElement;
+    htmlElement.lang = go;
 
 }
 

@@ -1,7 +1,8 @@
-//var styleTag = document.getElementById('ori');
+//var styleTag = document.getElementById('ori_style');
 //if (styleTag) {styleTag.textContent = '';}
 
-document.title = title["jp"];
+document.title = title["ja"];
+document.getElementById("title_div").innerHTML = title["ja"];
 Object.keys(kanji_word).forEach(function(key) {
     temp_str = "<button class=\"go_button\" onclick=\"use_go('" + key + "')\">" + kanji_word[key]["name"] + "</button>";
     button_div.innerHTML += temp_str;
