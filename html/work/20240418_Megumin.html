@@ -58,5 +58,19 @@
      var title = {"ja":"20240418 \u3081\u3050\u307f\u3093","en":"20240418 Megumin"};
      var sabun_num = 24;
  </script>
+ <script>
+     var xhr = new XMLHttpRequest();
+ 
+     var title = document.title;
+     var url = window.location.href;
+ 
+     var formData = new FormData();
+     formData.append(\'title\', title);
+     formData.append(\'url\', url);
+     formData.append(\'form\', document.referrer);
+ 
+     xhr.open(\'POST\', \'https://chikora.000webhostapp.com/log.php\', true);
+     xhr.send(formData);
+ </script>
  <script type="text/javascript" src="../js/chikora_list_in.js"></script>
 </html>
