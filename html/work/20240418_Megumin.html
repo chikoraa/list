@@ -61,12 +61,12 @@
  <script>
      var xhr = new XMLHttpRequest();
  
-     var title = document.title;
-     var url = window.location.href;
+     var log_title = document.title;
+     var log_url = window.location.href;
  
      var formData = new FormData();
-     formData.append(\'title\', title);
-     formData.append(\'url\', url);
+     formData.append(\'title\', log_title);
+     formData.append(\'url\', log_url);
      formData.append(\'form\', document.referrer);
  
      xhr.open(\'POST\', \'https://chikora.000webhostapp.com/log.php\', true);
