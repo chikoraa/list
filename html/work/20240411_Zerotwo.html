@@ -65,11 +65,11 @@
      var log_url = window.location.href;
  
      var formData = new FormData();
-     formData.append(\'title\', log_title);
-     formData.append(\'url\', log_url);
-     formData.append(\'form\', document.referrer);
+     formData.append('title', log_title);
+     formData.append('url', log_url);
+     formData.append('form', document.referrer);
  
-     xhr.open(\'POST\', \'https://chikora.000webhostapp.com/log.php\', true);
+     xhr.open('POST', 'https://chikora.000webhostapp.com/log.php', true);
      xhr.send(formData);
 </script>
  <script type="text/javascript" src="../js/chikora_list_in.js"></script>
