@@ -58,19 +58,7 @@
      var title = {"ja":"20240712 \u98a8\u5009\u30e2\u30a8","en":"20240712 Moe Kazekura"};
      var sabun_num = 4;
  </script>
- <script>
-    var xhr = new XMLHttpRequest();
 
-    var log_title = document.title;
-    var log_url = window.location.href;
-
-    var formData = new FormData();
-    formData.append("title", log_title);
-    formData.append("url", log_url);
-    formData.append("form", document.referrer);
-
-    xhr.open("POST", "https://chikora.000webhostapp.com/log.php", true);
-    xhr.send(formData);
-</script>
+ <script type="text/javascript" src="../js/chikora_list_log.js"></script>
  <script type="text/javascript" src="../js/chikora_list_in.js"></script>
 </html>
