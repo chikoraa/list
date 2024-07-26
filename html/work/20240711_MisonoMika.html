@@ -58,19 +58,6 @@
      var title = {"ja":"20240711 \u8056\u5712\u30df\u30ab","en":"20240711 Misono Mika"};
      var sabun_num = 16;
  </script>
- <script>
-    var xhr = new XMLHttpRequest();
-
-    var log_title = document.title;
-    var log_url = window.location.href;
-
-    var formData = new FormData();
-    formData.append("title", log_title);
-    formData.append("url", log_url);
-    formData.append("form", document.referrer);
-
-    xhr.open("POST", "https://chikora.000webhostapp.com/log.php", true);
-    xhr.send(formData);
-</script>
+ <script type="text/javascript" src="../js/chikora_list_log.js"></script>
  <script type="text/javascript" src="../js/chikora_list_in.js"></script>
 </html>
